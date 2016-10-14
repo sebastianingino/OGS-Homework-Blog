@@ -291,7 +291,7 @@ button:focus {
     position: relative;
     color: inherit;
     background: #fff;
-    min-height: calc(33vh - 10px);
+    min-height: 33vh;
     max-height: 50vh;
     cursor: pointer;
     text-align: center;
