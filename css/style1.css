@@ -1,11 +1,4 @@
 @import url(http://fonts.googleapis.com/css?family=Playfair+Display+SC:400italic,700,900|Raleway:500|Martel+Sans:400,700);
-@font-face {
-  font-weight: normal;
-  font-style: normal;
-  font-family: 'codropsicons';
-  src: url("../fonts/codropsicons/codropsicons.eot");
-  src: url("../fonts/codropsicons/codropsicons.eot?#iefix") format("embedded-opentype"), url("../fonts/codropsicons/codropsicons.woff") format("woff"), url("../fonts/codropsicons/codropsicons.ttf") format("truetype"), url("../fonts/codropsicons/codropsicons.svg#codropsicons") format("svg");
-}
 *, *:after, *:before {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
@@ -18,7 +11,6 @@ iframe {
     overflow-y: scroll;
     pointer-events: all;
 }
-
 
 .clearfix:before, .clearfix:after {
   display: table;
@@ -125,34 +117,7 @@ button:focus {
   speak: none;
 }
 
-.codrops-icon--drop:before {
-  content: "\e001";
-}
-
-.codrops-icon--prev:before {
-  content: "\e004";
-}
-
 /* Demo links */
-.codrops-demos {
-  margin: 2em 0 0;
-  font-size: 0.75em;
-}
-
-.codrops-demos a {
-  display: inline-block;
-  margin: 0 0.5em;
-}
-
-.codrops-demos a.current-demo {
-  color: #333;
-  font-weight: bold;
-}
-
-.codrops-demos a.current-demo:focus {
-  color: #aaa;
-}
-
 .related {
   font-size: 0.85em;
   padding-bottom: 1em;
