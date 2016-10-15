@@ -15,7 +15,7 @@ iframe {
 }
 
 hr {
-    border-style: none;
+    border-style: solid;
 }
 
 .clearfix:before,
